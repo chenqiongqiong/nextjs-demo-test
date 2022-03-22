@@ -33,9 +33,9 @@ export default function Home123() {
 
         <div className="grid">
           // 此处代码建议使用循环进行渲染
-          <a href="https://nextjs.org/docs" className="card">
+          <a href="https://nextjs.org/docs" className="card" v-for>
             <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Find in-depth information111 about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
