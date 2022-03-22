@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 // import "gitee-code-ui/es/button/style/index.css"
 
 // 此时代码建议分开导出
-export default function Home() {
+export default function Home123() {
   return (
     <div className="container">
       <Link href="/">/</Link>
