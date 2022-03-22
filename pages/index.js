@@ -4,6 +4,7 @@ import { Button, Affix } from 'antd';
 import 'antd/dist/antd.css';
 // import "gitee-code-ui/es/button/style/index.css"
 
+// 此时代码建议分开导出
 export default function Home() {
   return (
     <div className="container">
@@ -31,6 +32,7 @@ export default function Home() {
         </p>
 
         <div className="grid">
+          // 此处代码建议使用循环进行渲染
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -74,7 +76,8 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
-
+      // 很好
+      // 哈哈 😄
       <style jsx>{`
         .container {
           min-height: 100vh;
