@@ -4,6 +4,7 @@ import { Button, Affix } from 'antd';
 import 'antd/dist/antd.css';
 // import "gitee-code-ui/es/button/style/index.css"
 
+// 建议这里分开
 export default function Home() {
   return (
     <div className="container">
@@ -13,7 +14,8 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
+      // 此处代码希望不要硬编码
       <Affix offsetTop={10}>
         <Button type="primary">
           Affix top
@@ -31,11 +33,12 @@ export default function Home() {
         </p>
 
         <div className="grid">
+          // 希望此处代码可以用循环来做
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
-
+      
           <a href="https://nextjs.org/learn" className="card">
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
