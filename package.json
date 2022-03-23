@@ -1,6 +1,6 @@
 {
   "private": true,
-  "scripts": {
+  "scripts": {1
     "dev": "next dev",
   },
   "dependencies": {
