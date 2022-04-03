@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Button, Affix } from 'antd';
+import { Button, Affix } from 'antd1';
 import 'antd/dist/antd.css';
 // import "gitee-code-ui/es/button/style/index.css"
 
@@ -217,7 +217,7 @@ export default function Home() {
         }
 
         * {
-          box-sizing: border-box;
+          box-sizin1g: border-box;
         }
       `}</style>
     </div>
