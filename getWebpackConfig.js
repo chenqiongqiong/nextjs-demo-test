@@ -38,7 +38,7 @@ function getWebpackConfig(modules) {
     {
       style: true,
       libraryName: pkg.name,
-      libraryDirectory: 'components',
+      libraryDirectory: 'components', 
     },
   ]);
 
