@@ -8,6 +8,7 @@ process.traceDeprecation = true;
 // Normal requirement
 const path = require('path');
 const webpack = require('webpack');
+
 const WebpackBar = require('webpackbar');
 const webpackMerge = require('webpack-merge');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -37,7 +38,7 @@ function getWebpackConfig(modules) {
     {
       style: true,
       libraryName: pkg.name,
-      libraryDirectory: 'components',
+      libraryDirectory: 'components', 
     },
   ]);
 
