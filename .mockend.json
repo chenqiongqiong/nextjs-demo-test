@@ -1,35 +1,26 @@
 {
   "Blog": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
+    "title2": {
       "loremWords": {
         "minLength": 5,
         "maxLength": 20
       }
     },
-    "body": {
+    "body1": {
       "loremParagraphs": {
         "minLength": 10,
         "maxLength": 100
       }
     },
-    "tag": {
+    "tag22": {
       "string": [
         "one",
-        "two",
+        "tw2o",
         "three"
       ]
     },
     "isDraft": {
       "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
     }
   }
 }
