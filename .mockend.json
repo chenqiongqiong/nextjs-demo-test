@@ -1,0 +1,26 @@
+{
+  "Blog": {
+    "title2": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body1": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag22": {
+      "string": [
+        "one",
+        "tw2o",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    }
+  }
+}
